@@ -1,4 +1,3 @@
-import sys
 import pyperclip
 import json
 import time

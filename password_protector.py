@@ -12,7 +12,7 @@ else:
     passwordsFile = {}
 
 masterPass = input("Enter the password")
-while masterPass == "mufaddal":
+if masterPass == "mufaddal":
     def password_Locker():
         print("Password Locker")
         print("1. Find your Password")
@@ -83,4 +83,5 @@ while masterPass == "mufaddal":
         return passEncrypted
 
     password_Locker()
-print("incorrect Password")
+else:
+    print("incorrect Password")
